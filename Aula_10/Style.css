@@ -1,0 +1,23 @@
+body {
+    background-color: grey;
+}
+header {
+    background-image: url("https://s1.1zoom.me/big0/841/287634-Sepik.jpg");
+    height: 100px;
+    width: 950px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    margin: 30px;
+    text-align: center;
+    padding: 120px;
+}
+h1, h2 {
+    color: white;
+}
+button {
+    text-align: center;
+    height: 30px;
+    width: 120px;
+  
+}

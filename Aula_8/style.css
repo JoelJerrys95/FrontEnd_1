@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body {
+    background-color:#131313;
+    color: white;
+}
+h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.media-picture {
+    width:  100%;
+    height: 400px;
+    background-image: url("https://3.bp.blogspot.com/-BnYekPQUtJg/UpPAVOrZo8I/AAAAAAAANsI/KcuN5iLFVGQ/s2000/edpwl11-19201200.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.review-score{
+    padding: 12px;
+    color: white;
+    background-color: #e6bd09;
+    font-weight: bolder;
+}
+h2{
+    color: steelblue;
+
+}
+p {
+    color: #bdbdbd;
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    color: yellow;
+}
+#titulo{
+color: white;
+}
