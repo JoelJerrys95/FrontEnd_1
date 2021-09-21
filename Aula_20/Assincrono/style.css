@@ -1,0 +1,32 @@
+body header{
+    background-color: blue;
+    grid-area: header;
+}
+body aside{
+    background-color: chartreuse;
+    grid-area: aside;
+    height: 200px;
+}
+body main{
+    background-color: chocolate;
+    grid-area: main;
+    height: 200px;
+}
+body footer{
+    background-color: red;
+    grid-area: footer;
+    
+}
+.p2{
+    background-color: darkgreen;
+    grid-area: p2;
+    height: 200px;
+}
+body{
+    display: grid;
+    grid-template-columns: 200px 100px 1fr;
+    grid-template-areas: 
+    'header header header'
+    'aside main p2'
+    'footer footer footer';
+}
