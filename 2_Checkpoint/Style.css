@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 body {
     display: flex;
-    height: 1680px;
+    height: 1500px;
     width: 100vw;
     flex-direction: column;
     
@@ -26,7 +26,7 @@ header{
     
 }
 main{
-    height: 100vh;
+    height: 750px;
     width: 100vw;
     background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./img_body.jpg") ;
     background-size: 100vw;
@@ -59,6 +59,11 @@ main{
     align-items: center;
 
 }
+#formulario{
+    background-color:rgb(254, 232, 48) ;
+    color: black;
+    width: 100vw;
+}
 img{
      border-radius: 10px;
     width: 45px;
@@ -71,6 +76,38 @@ h2{
 }
 footer{
     width: 100vw;
-    height: 600px;
+    height: 100px;
     
 }
+fieldset {
+    width: 100vw;
+    margin: 0% 0% 2% 0%;
+    border: 2px blue solid;
+    border-radius: 20px;
+    padding: 15px;
+    position: relative;
+    line-height: 1.8rem;
+    
+   }
+   
+   legend {
+     color: blue;
+     font-size: 30px;
+     padding: 10px;
+     position: absolute; /* reposiciona a tag em relação ao body OU ao ancestral posicionado mais próximo */
+     top: -30px;
+     background-color: rgb(254, 232, 48);
+   }
+   button {
+    padding: 10px;
+    margin: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border: 0;
+    border-radius: 30px;
+  }
+  
+  #buttons {
+    text-align: center;
+  }
