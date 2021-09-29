@@ -120,6 +120,7 @@ fieldset {
   
 
   .campo:hover{
+      transition: all 2s;
       background-color: #2b90e2; 
       color: white;
       height: 2rem;
