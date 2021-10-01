@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  body{
+      height: 200vh;
+      scroll-behavior: smooth;
+  }
+  header{
+      height:20vh;
+      background-color: rgb(192, 192, 192);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  main{
+      display: flex;
+      height: 180vh;
+      background-color: gray;
+      background-image: url("https://www.jornalcontabil.com.br/wp-content/uploads/2019/12/ferias2-1200x799.jpg");
+      background-size: cover;
+  }
+
+  li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+  }
+  #s1 {
+      
+      height: 40vh;
+      width: 40vw;
+      background-color: white;
+      
+      
+  }
+  #s2 {
+    margin: 0px 100px;
+    height: 40vh;
+    width: 40vw;
+    background-color: white;
+    
+  }
