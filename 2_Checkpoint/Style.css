@@ -60,9 +60,10 @@ main{
 
 }
 #formulario{
-    background-color:rgb(254, 232, 48) ;
+    background-color:gray ;
     color: black;
     width: 100vw;
+    
 }
 img{
      border-radius: 10px;
@@ -89,7 +90,6 @@ fieldset {
     width: 100vw;
     margin: 0% 0% 2% 0%;
     border: 2px blue solid;
-    border-radius: 20px;
     padding: 15px;
     position: relative;
     line-height: 1.8rem;
@@ -97,12 +97,14 @@ fieldset {
    }
    
    legend {
-     color: blue;
+     color: white;
      font-size: 30px;
      padding: 10px;
-     position: absolute; /* reposiciona a tag em relação ao body OU ao ancestral posicionado mais próximo */
-     top: -30px;
-     background-color: rgb(254, 232, 48);
+     position: absolute; 
+     top: -10px;
+     right: 40vw;
+     
+     
    }
    button {
     padding: 10px;
@@ -121,7 +123,7 @@ fieldset {
 
   .campo:hover{
       transition: all 2s;
-      background-color: #2b90e2; 
+      background-color: blue; 
       color: white;
       height: 2rem;
   }
